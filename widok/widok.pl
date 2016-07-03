@@ -13,3 +13,6 @@ lipsum(_Request) :-
 		p('Asperiores in in non et et in maiores. Qui nostrum expedita sit porro ea aliquid odio cupiditate. Quae minus ducimus nostrum nulla quas consequuntur dicta. Fugit nobis debitis et vero vel autem voluptate. Nobis est aut non dolores. Commodi molestiae perferendis et vero ut recusandae.'),
 		p('Eveniet aliquid minima error adipisci. Et non asperiores eum quis ratione impedit enim. Veritatis itaque voluptatem placeat facere nobis. Soluta omnis voluptatem voluptas sed vero perspiciatis qui. Cum fugiat eum officiis cupiditate culpa iste.'),
 		\oferta(3)]).
+
+glowna(_) :-
+	reply_html_page(skorka, [title('Najlepsze ogłoszenia')], [\strona_glowna]).
